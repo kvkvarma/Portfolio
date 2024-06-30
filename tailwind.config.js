@@ -7,12 +7,15 @@ module.exports = {
     extend: {
       fontFamily: {
         signature: ['Poppins'],
+        roboto:['Rajdhani']
       },
       colors: {
         mySignatureColor: '#000021',
         navColor:'#12123e',
         linksColor:'#9999e2',
-        blueViolet:'#9900FF'
+        blueViolet:'#9900FF',
+        nameColor:'#F99417',
+        socialLinks:'#D8EFD3'
       },
     },
   },

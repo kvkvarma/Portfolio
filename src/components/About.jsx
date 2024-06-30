@@ -1,24 +1,25 @@
-import React from 'react'
+  import React from 'react'
 
-const About = () => {
-  return (
-    <div name="about"  className='w-full h-screen bg-mySignatureColor text-white'> 
-    <hr />
-        <div className='max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full'>
-            <div className='pb-8'>
-                <p className='text-2xl font-bold inline border-b-2 border-gray-400'>About</p>
-            </div>
-             <p className='text-lg '>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptas ad asperiores, ab non suscipit, omnis laudantium consequatur totam deleniti distinctio iusto tempora et mollitia. Voluptatum, delectus. Unde amet ipsum modi omnis? Id quisquam modi reprehenderit qui ullam dolores ex quia odio corporis consectetur magni enim ipsum rerum beatae, recusandae dolorem.
-             </p>
+  const About = () => {
+    return (
+      <div name="about"  className='w-full h-screen bg-mySignatureColor text-white '>
+          <div className='max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full'>
+              <div className='pb-0'>
+                  <p className='text-3xl  font-signature inline border-b-2 border-gray-400 text-yellow-500'>About</p>
+              </div>
+              <p className='text-xl mt-6'>
+                I am K Vijaya Kumar Varma, currently pursuing a B.Tech in Computer Science and Engineering at Pragati Engineering College, now in my fourth year. I am passionate about the software industry and have enriched my skills through various hands-on projects.
+              </p>
 
-             <br />
-             <p className='text-lg'>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo ipsam temporibus labore quos eos laboriosam nisi nobis quae exercitationem aspernatur. Pariatur tempore laboriosam explicabo perspiciatis temporibus mollitia impedit corrupti assumenda quis, dolorum corporis aperiam minima commodi nobis? Amet nam consectetur harum magnam excepturi laboriosam, accusamus deleniti. Saepe error illo laboriosam?
-             </p>
-        </div>
-    </div>
-  )
-}
+              <br />
+              <p className='text-xl'>
+              Through engaging projects, I've enhanced proficiency in React for front-end, Node.js and Express.js for back-end development, and MySQL for database management. Excited to apply these skills, contribute effectively, and achieve professional growth in the dynamic software industry.
+              </p>
+              <br />
+              
+          </div>
+      </div>
+    )
+  }
 
-export default About
+  export default About
