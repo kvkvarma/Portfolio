@@ -2,7 +2,7 @@ import React from 'react';
 
 const About = () => {
   return (
-    <div name="about" className="w-full h-screen bg-mySignatureColor text-white pt-16 md:pt-">
+    <div name="about" className="w-full h-screen bg-mySignatureColor text-white pt-16 md:pt-0">
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
         <div className="pb-8">
           <p className="text-3xl font-signature inline border-b-2 border-gray-400 text-yellow-500">About</p>
@@ -14,9 +14,13 @@ const About = () => {
         <p className="text-xl">
           Through engaging projects, I've enhanced proficiency in React for front-end, Node.js and Express.js for back-end development, and MySQL for database management. Excited to apply these skills, contribute effectively, and achieve professional growth in the dynamic software industry.
         </p>
+        <br />
+        <p className="text-xl">
+       I excel in teamwork, solving complex challenges innovatively, and staying current with industry trends.
+        </p>  
         
       </div>
-    </div>
+    </div>  
   );
 };
 
