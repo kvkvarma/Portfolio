@@ -51,7 +51,7 @@ const SocialLinks = () => {
         {links.map((link) => (
           <li
             key={link.id}
-            className={`flex justify-between items-center w-40 h-14 px-4 text-white bg-gray-600 ml-[-100px] hover:ml-[-10px] hover:rounded-md ${link.style} duration-200`}
+            className={`flex justify-between items-center w-40 h-14 px-4 text-white bg-gray-600 ml-[-100px] sm:hover:ml-[-10px] sm:hover:rounded-md ${link.style} duration-200`}
           >
             <a
               download={link.download}

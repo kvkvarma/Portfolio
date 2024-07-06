@@ -14,12 +14,12 @@ const NavBar = () => {
 
   return (
     <div className="flex justify-between items-center bg-navColor text-white h-16 w-full px-4 fixed top-0 z-50">
-      <Link to="home" smooth duration={500} className="hover:cursor-pointer text-2xl font-signature text-orange-500 ml-2">
+      <Link to="home" smooth duration={500} className="sm:hover:cursor-pointer text-2xl font-signature text-purple-600 ml-2">
         Vijay's Portfolio
       </Link>
       <ul className="hidden md:flex">
         {links.map(({ id, link }) => (
-          <li key={id} className="px-4 cursor-pointer font-medium text-white hover:scale-105 capitalize hover:text-yellow-500 duration-300">
+          <li key={id} className="px-4 cursor-pointer font-medium text-white sm:hover:scale-105 capitalize sm:hover:text-yellow-500 duration-300">
             <Link to={link} smooth duration={500}>{link}</Link>
           </li>
         ))}

@@ -8,15 +8,15 @@ const About = () => {
           <p className="text-3xl font-signature inline border-b-2 border-gray-400 text-yellow-500">About</p>
         </div>
         <p className="text-xl ">
-          I am K Vijaya Kumar Varma, currently pursuing a B.Tech in Computer Science and Engineering at Pragati Engineering College, now in my fourth year. I am passionate about the software industry and have enriched my skills through various hands-on projects.
+        I am K. Vijay Kumar Varma, currently pursuing my final year of a Bachelor’s degree in Computer Science and Engineering at Pragati Engineering College.
         </p>
         <br />
         <p className="text-xl">
-          Through engaging projects, I've enhanced proficiency in React for front-end, Node.js and Express.js for back-end development, and MySQL for database management. Excited to apply these skills, contribute effectively, and achieve professional growth in the dynamic software industry.
+        I am passionate about securing a challenging position where I can utilize my technical skills, problem-solving abilities, and teamwork experience to contribute to the success of the organization and further my professional development.
         </p>
         <br />
         <p className="text-xl">
-       I excel in teamwork, solving complex challenges innovatively, and staying current with industry trends.
+        With hands-on project experience, I am proficient in React.js for front-end development, Node.js and Express.js for backend development, and MySQL for database management. I am eager to apply my skills and knowledge to work on innovative projects and contribute positively to the industry.
         </p>  
         
       </div>

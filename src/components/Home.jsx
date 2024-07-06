@@ -9,20 +9,26 @@ const Home = () => {
     <div name="home" className="h-screen w-full bg-mySignatureColor text-white  sm:mt-16 md:mt-0 lg:mt-0">
       <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row">
         <div className="flex flex-col justify-center h-full text-center md:text-left">
-          <h2 className="text-4xl text-white md:text-6xl mt-10 sm:text-4xl sm:mt-20 md:mt-0 font-roboto">
-            I'm an Undergraduate!!
+        <h2 className="text-4xl text-white md:text-6xl mt-20 sm:text-4xl  sm:mt-20 md:mt-0 font-roboto">
+            I'm
+            <br />
+            <div className="flex justify-center">
+             <p className="mr-2">Vijaya</p>
+             <p className="mr-2"> Kumar</p>
+             <p>Varma</p>
+             </div>
           </h2>
           <p className="py-4 text-gray-500 max-w-md mx-auto md:mx-0">
-            Eager to join a software company to enhance my skills and contribute to its success. Committed to continuous learning and innovation, I aim to drive progress and efficiency, ensuring personal growth and benefiting the company through dedicated work.
+          I'm an Undergraduate student eager to join a software company and contribute my skill set to its development with a dedication to continuous learning and innovation, I strive to drive progress and efficiency, ensuring both personal and professional growth.
           </p>
           <div className="flex flex-col md:flex-row items-center md:items-start">
-            <Link to="projects" smooth duration={500} className="hover:scale-105 duration-200 group mr-0 md:mr-2 cursor-pointer bg-gradient-to-r from-cyan-700 to-blue-700 items-center justify-center text-white py-3 px-6 rounded-md flex w-fit my-2">
+            <Link to="projects" smooth duration={500} className="sm:hover:scale-105 duration-200 group mr-0 md:mr-2 cursor-pointer bg-gradient-to-r from-cyan-700 to-blue-700 items-center justify-center text-white py-3 px-6 rounded-md flex w-fit my-2">
               Projects
-              <span className="group-hover:rotate-90 duration-300">
+              <span className="sm:group-hover:rotate-90 duration-300">
                 <MdKeyboardArrowRight size={25} />
               </span>
             </Link>
-            <button className="group mr-0 md:mr-2 hover:scale-105 duration-200 cursor-pointer bg-gradient-to-r from-green-500 to-green-800 items-center justify-center text-white py-3 px-6 rounded-md flex w-fit my-2">
+            <button className="group mr-0 md:mr-2 sm:hover:scale-105 duration-200 cursor-pointer bg-gradient-to-r from-green-500 to-green-800 items-center justify-center text-white py-3 px-6 rounded-md flex w-fit my-2">
               <a href="/Vijay_Resume.pdf" download={true}>
                 <span className="flex justify-center items-center">Resume <BsFillPersonLinesFill className="ml-2" size={23} /></span>
               </a>

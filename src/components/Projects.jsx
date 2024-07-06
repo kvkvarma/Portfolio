@@ -41,7 +41,7 @@ const Projects = () => {
           <div name="projects" className= " bg-mySignatureColor text-white w-full pt-14 sm:pt-0 sm:h-screen">
           <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
             <div className="pb-8">
-              <p className="text-3xl font-signature inline border-b-2 text-yellow-500 border-gray-400 ">
+              <p className="text-3xl inline border-b-2 text-yellow-500 border-gray-400 ">
                 Projects
               </p>
             </div>
@@ -50,18 +50,18 @@ const Projects = () => {
                 projects.map(({id,src,href,code})=>(
               <div key={id}  className="shadow-md shadow-gray-600 rounded-lg">  
                 <img
-                  className="rounded-md duration-200 hover:scale-105 "
+                  className="rounded-md duration-200 sm:hover:scale-105 "
                   src={src}
                   alt=""
                 />
                 <div className="flex items-center justify-center">
-                <a href={href} target="_blank" rel="noreferrer" className="w-2/3 m-2 px-6 py-1 duration-200 hover:scale-105 hover:bg-purple-700 rounded-md inline-block">
+                <a href={href} target="_blank" rel="noreferrer" className="bg-purple-700 w-2/3 m-2 px-6 py-1 duration-200 sm:hover:scale-105 sm:hover:bg-purple-700 rounded-md inline-block">
                 <button className="w-full h-full flex justify-center items-center">
                 Demo
               </button>
             </a>
-                  <a href={code} target="_blank" rel="noreferrer" className="w-2/3 m-2 px-6 py-1 duration-200 hover:scale-105 hover:bg-purple-700 rounded-md inline-block">
-                <button className="w-full h-full flex justify-center items-center">
+                  <a  href={code} target="_blank" rel="noreferrer" className="bg-purple-700 w-2/3 m-2 px-6 py-1 duration-200 s,sm:hover:scale-105 sm:hover:bg-purple-700 rounded-md inline-block">
+                <button className=" w-full h-full flex justify-center items-center">
                 Code
               </button>
             </a>

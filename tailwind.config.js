@@ -15,7 +15,8 @@ module.exports = {
         linksColor:'#9999e2',
         blueViolet:'#9900FF',
         nameColor:'#F99417',
-        socialLinks:'#D8EFD3'
+        socialLinks:'#D8EFD3',
+        defaultColor: '#6F459B',
       },
     },
   },
