@@ -55,12 +55,12 @@ const Projects = () => {
                   alt=""
                 />
                 <div className="flex items-center justify-center">
-                <a href={href} target="_blank" rel="noreferrer" className="bg-purple-700 w-2/3 m-2 px-6 py-1 duration-200 sm:hover:scale-105 sm:hover:bg-purple-700 rounded-md inline-block">
+                <a href={href} target="_blank" rel="noreferrer" className="bg-purple-700 sm:bg-transparent w-2/3 m-2 px-6 py-1 duration-200 sm:hover:scale-105 sm:hover:bg-purple-700 rounded-md inline-block">
                 <button className="w-full h-full flex justify-center items-center">
                 Demo
               </button>
             </a>
-                  <a  href={code} target="_blank" rel="noreferrer" className="bg-purple-700 w-2/3 m-2 px-6 py-1 duration-200 s,sm:hover:scale-105 sm:hover:bg-purple-700 rounded-md inline-block">
+                  <a  href={code} target="_blank" rel="noreferrer" className="bg-purple-700 sm:bg-transparent w-2/3 m-2 px-6 py-1 duration-200   sm:hover:scale-105 sm:hover:bg-purple-700 rounded-md inline-block">
                 <button className=" w-full h-full flex justify-center items-center">
                 Code
               </button>

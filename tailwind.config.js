@@ -17,6 +17,7 @@ module.exports = {
         nameColor:'#F99417',
         socialLinks:'#D8EFD3',
         defaultColor: '#6F459B',
+        headColor:"#FDAF7B"
       },
     },
   },

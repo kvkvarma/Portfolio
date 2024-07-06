@@ -14,7 +14,7 @@ const NavBar = () => {
 
   return (
     <div className="flex justify-between items-center bg-navColor text-white h-16 w-full px-4 fixed top-0 z-50">
-      <Link to="home" smooth duration={500} className="sm:hover:cursor-pointer text-2xl font-signature text-purple-600 ml-2">
+      <Link to="home" smooth duration={500} className="sm:hover:cursor-pointer text-2xl font-signature text-headColor ml-2">
         Vijay's Portfolio
       </Link>
       <ul className="hidden md:flex">
